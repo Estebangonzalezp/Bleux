@@ -1,0 +1,891 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* Contenedor principal */
+.container {
+    max-width: 1180px;
+    margin: 0 auto;
+    
+}
+
+/* Fondo */
+.navbar{
+   background: #1e162e;
+   width: 100%;
+   height: 15vh;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   position: sticky;
+   top: 0;
+   z-index: 1;
+}
+
+/* Menú */
+
+.logo {
+    width: 200px;
+    height: 80px;
+    font-size: 24px;
+    font-weight: 800;
+    margin-left: 150px;
+    text-transform: uppercase;
+}
+
+
+ul{
+    width: 300px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    margin-right: 370px;
+
+}
+
+.a{
+    width: 70px;
+    text-decoration: none;
+    color: white;
+    opacity: 60%;
+    font-size: 18px;
+}
+
+.a:hover{
+    color: white;
+    opacity: 100%;
+}
+
+li{
+    display: flex;
+    width: 200px;
+    margin: 0 30px 0 0;
+}
+
+
+
+/* Boton con gradiente */
+.gradiente {
+    margin-top: 0.7%;
+    background-image: linear-gradient(to right, #7C45D5, #0F7AD5ed);
+    border-radius: 5px;
+    border: none;
+    color: white;
+    padding: 10px 10px;
+    font-size: 18px;
+    cursor: pointer;
+
+    
+}
+.gradiente:hover{
+    color: black;
+}
+
+
+/* Contenedor principal */
+#main-container {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+}
+
+.section {
+    width: 50%;
+    height: 100%;
+}
+
+#caja1 {
+    background-color: #2e244f;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    justify-content: end;
+}
+
+
+#caja2 .imagen-fondo {
+    width: 100%;
+    background-image: url(../assets/img/hojasFondo.jpg);
+    height: 100%;
+}
+
+
+#caja2 {
+    position: relative;
+}
+
+.imagen-superpuesta {
+    position: absolute;
+    bottom: -3%;
+    left: 12%;
+    transform: scale(0.7);
+    width: auto;
+}
+
+/* Estilo del texto */
+#h-1 {
+    color: white;
+    font-family: system-ui;
+    font-size: 70px;
+    margin-left: 27%;
+}
+
+#a-1 {
+    display: flex;
+    color: white;
+    font-family: system-ui;
+    font-size: 22px;
+    margin-left: 27%;
+}
+
+/* Estilo en general */
+.todo {
+    width: 680px;
+    height: 700px;
+}
+
+.margen {
+    justify-content: center;
+    align-items: center;
+    width: 360px; 
+    display: flex;
+    border-radius: 7px;
+    border: 2px solid rgb(223, 216, 216);
+    padding: 5px;
+    margin-left: 27%;
+}
+
+/* Botones */
+.Botones-1 {
+    border: none;
+    background-color: white;
+    width: 65%;
+    height: 50px;
+    border-radius: 6px;
+    font-size: 20px;
+}
+
+.Botones-2 {
+    border: 2px solid rgb(223, 216, 216);
+    color: white;
+    margin-left: 10px;
+    width: 45%;
+    height: 50px;
+    border-radius: 6px;
+    font-size: 20px;
+    background-color: #2e244f;
+}
+.Botones-1:hover{
+    border: 4px solid white; 
+    transform: translateY(-5px);
+    color: white;
+    background-color: black;
+}
+.Botones-2:hover{
+    border: 4px solid white; 
+    transform: translateY(-5px);
+    color: white;
+    background-color: black;
+}
+
+/* Imágenes y texto */
+.img-laptop {
+    display: flex;
+    flex-direction: row;
+}
+
+.a-2 img {
+    width: 6%;
+    margin-right: 3%;
+}
+
+.pa .h-2 {
+    margin: 3%;
+    text-align: center;
+    font-size: 90px;
+    font-family: system-ui;
+    color: #f51488;
+}
+
+
+.laptop {
+    transform: scale(0.9);
+    width: 45%;
+    height: 100%;
+    margin-left: 11%;
+}
+
+/* Sección Alpha */
+.Alpha {
+    margin-left: 7%;
+}
+
+/* Screenshot */
+.Screenshot {
+    color: #c2156e;
+    font-size: 7vh;
+    font-family: system-ui;
+}
+
+.lorem {
+    font-size: 22px;
+    font-family: system-ui;
+}
+
+/*icons */
+.a-2 {
+    padding: 1%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.a-2 a {
+    font-size: 26px;
+    font-family: system-ui;
+}
+
+#color-a {
+    font-family: system-ui;
+    color: #f51488;
+    font-size: 30px;
+}
+
+/* containers Papa*/
+.papa {
+    background-color: #1e162e;
+    justify-content: center;
+    align-items: center;
+}
+
+.pap {
+    text-align: center;
+}
+
+.h-3 {
+    font-family: system-ui;
+    font-size: 10vh;
+    color: white;
+    margin-bottom: 2%;
+}
+
+.pre {
+    font-family: system-ui;
+    color: white;
+    font-size: 18px;
+    opacity: 0.7;
+}
+
+/* Container Plans */
+.plans {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+    gap: 25px;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.plan {
+    font-family: system-ui;
+    width: 31%;
+    height: 650px;
+    background-color: white;
+    color: #1e162e;
+    border-radius: 8px;
+    padding: 0px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.Lite {
+    color: #f51488;
+}
+
+.price-container {
+    text-align: center;
+    background-color: #f5f5f5;
+    height: 80px;
+    margin-top: 10px;
+    justify-content: center;
+    display: flex;
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+
+.dollar {
+    font-size: 40px;
+}
+
+.zero {
+    font-size: 48px;
+}
+
+.free-label {
+    margin-left: 15px;
+    font-size: 20px;
+}
+
+.features-container {
+    margin-left: 12px;
+    align-items: center;
+    padding: 20px;
+    text-align: left;
+}
+
+.feature-item {
+    padding: 2px 0;
+    font-size: 20px;
+    font-family: system-ui;
+}
+
+.feature-item .check {
+    margin-right: 30px;
+    color: #f51689;
+}
+
+.feature-item .cross {
+    margin-right: 30px;
+    color: #404040;
+}
+
+.description {
+    font-family: system-ui;
+    color: black;
+    font-size: 20px;
+}
+
+/* Botones */
+
+.button-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f5f5f5;
+    height: 70px;
+}
+
+.button-1 {
+    background-image: linear-gradient(to right, #ed61aa, #f21b8a);
+    margin: 10px 0;
+    background-color: #2e244f;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    width: 50%;
+    height: 48px;
+    font-size: 20px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button-2 {
+    margin: 10px 0;
+    background-color: #2e244f;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    width: 50%;
+    height: 48px;
+    font-size: 20px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button-3 {
+    margin: 10px 0;
+    background-color: #2e244f;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    width: 50%;
+    height: 48px;
+    font-size: 20px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+/* Stayles Btn*/
+.button-1:hover{
+    border: 4px solid #ad1bb3; 
+    transform: translateY(-5px);
+    color: #dbc81ced;
+    background-color: black;
+}
+.button-2:hover{
+    border: 4px solid #ad1bb3; 
+    transform: translateY(-5px);
+    color: #dbc81ced;
+    background-color: black;
+}
+.button-3:hover{
+    border: 4px solid #ad1bb3; 
+    transform: translateY(-5px);
+    color: #dbc81ced;
+    background-color: black;
+}
+
+
+
+/* Footer  */
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+    font-family: Arial, sans-serif;
+    font-size: 20px;
+    color: #333;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 1090px;
+    margin: 0 auto;
+}
+
+.footer-link {
+    color: #ff007f;
+    text-decoration: none;
+}
+
+.social-icons {
+    display: flex;
+    gap: 25px;
+}
+
+.social-icon img {
+    width: 25px;
+    height: 25px;
+}
+
+@media screen and (max-width: 920px) {
+    .navbar {
+        flex-direction: row;
+        height: auto;
+        padding: 10px;
+    }
+
+    .logo {
+        margin-left: 0;
+        width: 150px;
+        height: 60px;
+    }
+
+    ul {
+        width: 100%;
+        margin: 0;
+        display: flex;
+        flex-direction: row;
+    }
+
+    li {
+        width: 100%;
+        margin: 10px 0;
+    }
+
+    .gradiente {
+        width: 100%;
+        padding: 10px 0;
+    }
+
+    #main-container {
+        flex-direction: column;
+        height: auto;
+    }
+
+    .section {
+        width: 100%;
+        height: auto;
+    }
+
+    #caja1 {
+        padding: 20px;
+        text-align: center;
+    }
+
+    #h-1, #a-1 {
+        margin-left: 0;
+        font-size: 50px;
+    }
+
+    .todo {
+        width: 100%;
+    }
+
+    .margen {
+        width: 100%;
+        margin-left: 0;
+    }
+
+    .Botones-1, .Botones-2 {
+        width: 100%;
+        font-size: 18px;
+    }
+
+    .img-laptop {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .laptop {
+        width: 80%;
+        margin-left: 0;
+    }
+
+    .Alpha {
+        margin-left: 0;
+    }
+
+    .h-2 {
+        font-size: 60px;
+    }
+
+    .plans {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .plan {
+        width: 90%;
+        margin-bottom: 20px;
+    }
+
+    .footer {
+        flex-direction: column;
+        text-align: center;
+        height: auto;
+    }
+
+    .social-icons {
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    /* Ajustar el diseño de la barra de navegación */
+    .navbar {
+        flex-direction: column;
+        height: auto;
+        padding: 10px;
+    }
+    
+    .logo {
+        margin-left: 0;
+        width: 150px;
+        height: 60px;
+        font-size: 20px;
+    }
+
+    ul {
+        width: 100%;
+        margin-right: 0;
+        justify-content: center;
+        flex-direction: row;
+        align-items: center;
+        display: block;
+    }
+
+    .a {
+        width: auto;
+        text-align: center;
+        margin: 10px 0;
+        display: flex;
+        flex-direction: row;
+    }
+
+    .gradiente {
+        margin-top: 10px;
+        width: 100%;
+        padding: 10px 0;
+    }
+
+    /* Ajustar el contenedor principal */
+    #main-container {
+        flex-direction: column;
+    }
+
+    .section {
+        width: 100%;
+        height: auto;
+    }
+
+    /* Ajustar las imágenes de fondo */
+    #caja2 .imagen-fondo {
+        height: auto;
+    }
+
+    .imagen-superpuesta {
+        width: 60%;
+        left: 20%;
+        bottom: 5%;
+    }
+
+    /* Ajustar el texto en la sección caja1 */
+    #h-1 {
+        font-size: 40px;
+        margin-left: 0;
+        text-align: center;
+    }
+
+    #a-1 {
+        font-size: 18px;
+        margin-left: 25%;
+        
+    }
+
+    /* Ajustar los botones en la sección caja1 */
+    .margen {
+        width: 100%;
+        margin-left: 0;
+        justify-content: center;
+        padding: 10px;
+    }
+
+    .Botones-1, .Botones-2 {
+        width: 90%;
+        font-size: 18px;
+    }
+
+    /* Ajustar la sección de funcionalidades */
+    .img-laptop {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .laptop {
+        width: 80%;
+        margin-left: 0;
+    }
+
+    .Alpha {
+        margin-left: 0;
+        text-align: center;
+    }
+
+    .Screenshot {
+        font-size: 5vh;
+    }
+
+    .lorem {
+        font-size: 18px;
+    }
+
+    /* Ajustar la sección de planes */
+    .plans {
+        flex-direction: column;
+        gap: 20px;
+        width: 90%;
+    }
+
+    .plan {
+        width: 100%;
+        height: auto;
+        padding: 20px;
+    }
+
+    /* Ajustar los botones en el footer */
+    .footer {
+        flex-direction: column;
+        text-align: center;
+        height: auto;
+    }
+
+    .footer-content {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .social-icons {
+        margin-top: 10px;
+    }
+
+    .social-icon img {
+        width: 20px;
+        height: 20px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    /* Ajustar el diseño de la barra de navegación */
+    .navbar {
+        flex-direction: column;
+        height: auto;
+        padding: 10px;
+        width: 500px;
+        background-color: #1e162e;
+    }
+
+    header {
+        width: 100%;
+        background-color: #f21b8a;
+    }
+
+    .logo {
+        margin-left: 0;
+        width: 120px;
+        height: 50px;
+        font-size: 18px;
+    }
+
+    ul {
+        width: 100%;
+        margin-right: 0;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        display: block;
+    }
+
+    .a {
+        width: auto;
+        text-align: center;
+        margin: 5px 0;
+        font-size: 16px;
+    }
+
+    .gradiente {
+        margin-top: 10px;
+        width: 100%;
+        padding: 10px 0;
+    }
+
+    /* Ajustar el contenedor principal */
+    #main-container {
+        flex-direction: column;
+    }
+
+    .section {
+        width: 100%;
+        height: auto;
+    }
+
+    /* Ajustar las imágenes de fondo */
+    #caja2 .imagen-fondo {
+        height: auto;
+        
+    }
+
+    .pa .h-2 {
+        margin: 3%;
+        text-align: center;
+        font-size: 60px;
+        font-family: system-ui;
+        color: #f51488;
+    }
+
+    .imagen-superpuesta {
+        width: 90%;
+        left: 5%;
+        bottom: 5%;
+    }
+
+    /* Ajustar el texto en la sección caja1 */
+    #h-1 {
+        font-size: 30px;
+        margin-left: 0;
+        text-align: center;
+    }
+
+    #a-1 {
+        font-size: 16px;
+        margin-left: 0;
+        text-align: center;
+    }
+
+    /* Ajustar los botones en la sección caja1 */
+    .margen {
+        width: 100%;
+        margin-left: 0;
+        justify-content: center;
+        padding: 10px;
+        margin-right: 20%;
+    }
+
+    .Botones-1, .Botones-2 {
+        width: 90%;
+        font-size: 16px;
+    }
+
+    /* Ajustar la sección de funcionalidades */
+    .img-laptop {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .laptop {
+        width: 100%;
+        margin-left: 0;
+    }
+
+    .Alpha {
+        margin-left: 0;
+        text-align: center;
+    }
+
+    .Screenshot {
+        font-size: 4vh;
+    }
+
+    .lorem {
+        font-size: 16px;
+    }
+
+    /* Ajustar la sección de planes */
+    .plans {
+        flex-direction: column;
+        gap: 15px;
+        width: 75%;
+    }
+
+    .plan {
+        width: 100%;
+        height: auto;
+        padding: 15px;
+    }
+
+    /* Ajustar los botones en el footer */
+    .footer {
+        flex-direction: column;
+        text-align: center;
+        height: auto;
+    }
+
+    .footer-content {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .social-icons {
+        margin-top: 10px;
+    }
+
+    .social-icon img {
+        width: 20px;
+        height: 20px;
+    }
+
+    body {
+        width: 100%;
+        
+    }
+}
+
+
+
+
+    
